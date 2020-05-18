@@ -1,0 +1,19 @@
+Task0:
+Time Complexity: O(1)
+Since we require only a specific value in array. so, it only needs to execute one line.
+
+Task1:
+Time Complexity: O(n) + O(k)
+We use a set structure from a list. set() is essentially iterating over the list and adding each of those elements to a hash table. In this exercise, the time is proportional to input size for calls (n) and messages (k).
+
+Task2:
+Time Complexity: O(n)
+The solution was to iterate each phone and store them in a list to make a relation with the total time spent. In the same iteration a compare is made to get the longest time. One iteration was required so this solution is proportional to the input size.
+
+Task3:
+Time Complexity: O(nlogn)
+The solution compare all items from list in a single iteration, so is proportional to the size of the input size (O(n)). But a sort function is called and the time complexity for this one is O(nlog(n)). The aproximation results with O(n) and O(nlog(n)), but the higher time complexity is taken, so in this case is O(nlog(n)).
+
+Task4:
+Time Complexity: O(nlogn)
+Same as before, the solution compare all items in a single iteration. But a sort function is called and time complexity results with O(nlog(n)).
